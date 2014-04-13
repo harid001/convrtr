@@ -1,0 +1,52 @@
+{
+ 
+	"length":[
+		"km",
+		"cm",
+		"nm",
+		"m",
+		"mm",
+		"in",
+		"ft",
+		"yd",
+		"mi"
+
+	],
+
+	"mass" :[
+		"g",
+		"kg",
+		"lb",
+		"oz",
+		"t"
+	],
+
+	"volume" :[
+		"pt",
+		"qt",
+		"gal",
+		"fl oz",
+		"L",
+		"mL",
+		"c",
+		"cm^3",
+		"m^3",
+		"tbsp"
+	],
+
+	
+	"time" :[
+
+		"sec",
+		"min",
+		"hr",
+		"day",
+		"mo",
+		"yr",
+		"cent",
+		"dec",
+		"ns",
+		"ms"
+	]
+		
+}

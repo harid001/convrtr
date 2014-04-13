@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="real_app_name">Convrtr</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Precision</string>
+    <string name="title_image_description">Title Image</string>
+    <string name="motto">the calculator for the people</string>
+    <string name="touch_to_start">touch to start</string>
+    <string name="title_activity_swipe"></string>
+    <string name="edit_text_hint">Enter \"Value and Unit\"</string>
+    <string name="action_add_button">Add</string>
+    <string name="action_about">About</string>
+    <string name="screw_up_message">Invalid Expression</string>
+    <string name="error">Error!</string>
+    <string name="num_sig_figs_message">Enter desired significant figures</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:gravity="center_horizontal" >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_image"
+        android:src="@drawable/convrtr_title_logo"
+        android:contentDescription="@string/title_image_description"
+        android:layout_marginTop="@dimen/title_picture_top_offset"
+        android:layout_gravity="center" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/motto_text_view"
+        android:layout_marginTop="@dimen/motto_text_offset" 
+        android:text="@string/motto"
+        android:layout_marginRight="@dimen/left_right_offset"
+        android:layout_marginLeft="@dimen/left_right_offset"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:id="@+id/swipe_to_start_text_view"
+        android:text="@string/touch_to_start"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+</LinearLayout>
