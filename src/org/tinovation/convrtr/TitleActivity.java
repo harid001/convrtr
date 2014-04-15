@@ -1,9 +1,9 @@
 package org.tinovation.convrtr;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.app.*;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MotionEvent;
@@ -15,7 +15,7 @@ import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class TitleActivity extends ActionBarActivity {
+public class TitleActivity extends Activity {
 	
 	protected TextView mMotto,mTouchToStart;
 	protected ViewGroup mContainer;

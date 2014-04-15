@@ -22,13 +22,13 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -53,7 +53,7 @@ import android.widget.TextView;
 import com.fathzer.soft.javaluator.DoubleEvaluator;
 
 
-public class SwipeActivity extends ActionBarActivity {
+public class SwipeActivity extends Activity {
 //	
 //	String massUnits[] = {"kilograms", "pounds", "grams", "tons", "ounces"};
 	
